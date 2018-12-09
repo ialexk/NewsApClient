@@ -3,7 +3,7 @@
 //  NewsApClient
 //
 //  Created by S. K. on 09.12.2018.
-//  Copyright © 2018 newsapclient. All rights reserved.
+//  Copyright © 2018 @ialexk. All rights reserved.
 //
 
 #import "NewsDataSource.h"
