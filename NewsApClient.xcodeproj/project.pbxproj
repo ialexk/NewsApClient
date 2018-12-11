@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		532790F821BD19300074BC4C /* NewsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 532790F721BD19300074BC4C /* NewsDataSource.m */; };
+		53A10CAC21BFE42000A720E4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A10CAB21BFE42000A720E4 /* WebKit.framework */; };
 		53FEE1ED21BA938000EF84A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEE1EC21BA938000EF84A0 /* AppDelegate.m */; };
 		53FEE1F021BA938000EF84A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEE1EF21BA938000EF84A0 /* ViewController.m */; };
 		53FEE1F321BA938000EF84A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53FEE1F121BA938000EF84A0 /* Main.storyboard */; };
@@ -20,12 +21,12 @@
 		53FEE21521BAB1F600EF84A0 /* CellArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEE21421BAB1F600EF84A0 /* CellArticle.m */; };
 		53FEE21721BAC99200EF84A0 /* CellArticle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53FEE21621BAC99200EF84A0 /* CellArticle.xib */; };
 		53FEE21A21BAFBDD00EF84A0 /* ViewControllerDetailed.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FEE21921BAFBDD00EF84A0 /* ViewControllerDetailed.m */; };
-		53FEE21D21BB16B500EF84A0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53FEE21C21BB16B500EF84A0 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		532790F621BD19300074BC4C /* NewsDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsDataSource.h; sourceTree = "<group>"; };
 		532790F721BD19300074BC4C /* NewsDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewsDataSource.m; sourceTree = "<group>"; };
+		53A10CAB21BFE42000A720E4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		53FEE1E821BA938000EF84A0 /* NewsApClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsApClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53FEE1EB21BA938000EF84A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		53FEE1EC21BA938000EF84A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		53FEE21621BAC99200EF84A0 /* CellArticle.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellArticle.xib; sourceTree = "<group>"; };
 		53FEE21821BAFBDD00EF84A0 /* ViewControllerDetailed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerDetailed.h; sourceTree = "<group>"; };
 		53FEE21921BAFBDD00EF84A0 /* ViewControllerDetailed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerDetailed.m; sourceTree = "<group>"; };
-		53FEE21C21BB16B500EF84A0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53FEE21D21BB16B500EF84A0 /* WebKit.framework in Frameworks */,
+				53A10CAC21BFE42000A720E4 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,11 +99,11 @@
 				53FEE21121BAA68400EF84A0 /* ArticleSource.m */,
 				53FEE20A21BAA11D00EF84A0 /* NewsData.h */,
 				53FEE20B21BAA11D00EF84A0 /* NewsData.m */,
+				532790F621BD19300074BC4C /* NewsDataSource.h */,
+				532790F721BD19300074BC4C /* NewsDataSource.m */,
 				53FEE21321BAB1F600EF84A0 /* CellArticle.h */,
 				53FEE21421BAB1F600EF84A0 /* CellArticle.m */,
 				53FEE21621BAC99200EF84A0 /* CellArticle.xib */,
-				532790F621BD19300074BC4C /* NewsDataSource.h */,
-				532790F721BD19300074BC4C /* NewsDataSource.m */,
 			);
 			path = NewsApClient;
 			sourceTree = "<group>";
@@ -111,7 +111,7 @@
 		53FEE21B21BB16B400EF84A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				53FEE21C21BB16B500EF84A0 /* WebKit.framework */,
+				53A10CAB21BFE42000A720E4 /* WebKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
